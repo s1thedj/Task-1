@@ -19,6 +19,7 @@ public class Main {
             System.out.println("Table Users: \n" + user.getAllUsers());
             user.cleanUsersTable();
             user.dropUsersTable();
+
         } catch (Exception e){
             System.out.println("Something went wrong with connection: " + e.getMessage());
         }
